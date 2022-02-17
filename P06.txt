@@ -1,0 +1,19 @@
+Hijack session
+Open burpsuit goto proxy turn off intercept
+Open browser type owasp IP address
+Click on Webgoat & login as guest
+Click on session management flaws & select Hijack session
+Goto burpsuit turn on intercept
+Goto browser click on Hijack session
+Remove weakid parameter completely & forward
+Goto http history select recent hijack session with edit form
+Choose edited from & send to sequencer
+Click on start live capture & stop it around 6000 tokens then save it as a txt file
+Search for missing number from a sorted list
+Open kali teminal type cat token.txt then sort token.txt
+Goto browser click on hijack session
+Goto burpsuit send to intruder & change the weakid to copied token
+Add missing gaps in the token as variable & select payload type as number
+Give the number from & to then give step as 1 click on start attack
+Select different length & turn off intercept
+Goto browser reload the page

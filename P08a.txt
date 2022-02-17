@@ -1,0 +1,4 @@
+SQL injection manual
+Open owasp multillidae II
+Goto owasp 2013->A1 injection(SQL)->SQL Extract->User info(SQL)
+Enter username as ' or 1=1 # & click on login

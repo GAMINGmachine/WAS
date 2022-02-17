@@ -1,0 +1,3 @@
+Open bwapp login as bee & bug
+From dropdown select directory traversal files & click on hack
+In url change message.txt to ../../../etc/passwd

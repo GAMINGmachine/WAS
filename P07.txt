@@ -1,0 +1,12 @@
+Horizontal Access Control
+Open burpsuit goto proxy turn off intercept
+Open browser type https://portswigger.net/web-security/access-control 
+Create new account & login
+Scroll down to horizontal privilage escalation click on users id controlled by request parameter
+Click on access lab then click on my account & login as wiener & peter
+Goto burpsuit click on http history select POSt method of login url then send to repeater & click on send
+Goto http history select GET method of myaccount id wiener then send to repeater & click on send
+Goto browser change the url of myaccountid=carlos & update the email as mail@mail.com
+Goto burpsuit click on http history select GET method of myaccountid carlos then send to repeater & click on send
+Goto response scroll down copy the API
+Goto browser click on submit solution paste API & click on submit

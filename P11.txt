@@ -1,0 +1,10 @@
+Open bwapp & login as bee & bug
+From dropdown select xml external entity & click on hack
+Goto burpsuit turn on intercept
+Goto browser click on any bugs
+In burpsuit right click & send to repeater
+Change bee to &xxe; in login tag
+Add these two line above reset tag
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HEADER [ <!ENTITY xxe SYSTEM "///etc/passwd"> ] >
+Click on send
