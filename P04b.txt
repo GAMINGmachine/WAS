@@ -1,0 +1,8 @@
+Cookies
+Open burpsuit goto proxy turn off intercept
+Open browser type owasp IP address
+Click on owasp multillidae II & click on login
+Goto to burpsuite turn on intercept
+Goto browser give username & password as test & test then click on login
+In burpsuit click on request cookie & add new parameter with name as uid & value as 1
+Click on forward untill it is disabled

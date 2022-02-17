@@ -1,0 +1,6 @@
+Open HTTrack & click next
+Give Project name & category then click next
+Add URL www.certifiedhacker.com then click ok
+Click set options & goto scan rules then check all three checkbox
+Click on next & click on disconnect when finished then click on finish
+After website is scanned click on browse mirrored website

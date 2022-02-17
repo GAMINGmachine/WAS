@@ -1,0 +1,12 @@
+Burpsuit
+Open burpsuit goto proxy turn off intercept
+Open browser type owasp IP address
+Click on owasp multillidae II & click on login
+Goto to burpsuite turn on intercept
+Goto browser give username & password as test & test then click on login
+Right click in burpsuite & click on send to intruder
+Goto position select attack type as cluster bomb then click on clear & select test for username & password & click on add
+Goto payloads add possible usename & password in payload set1 & payload set2 add admin in both sets
+Click on start attack & select status code 302 right click & copy url
+Turn off intercept
+Goto browser paste url

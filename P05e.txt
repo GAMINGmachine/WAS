@@ -1,0 +1,6 @@
+Strong Session
+Open burpsuit goto proxy turn off intercept
+Open browser type owasp IP address
+Click on bwapp & login as bee & bug
+From dropdown select session management cookies(HTTP only) & click on hack
+Click on click here

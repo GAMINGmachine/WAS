@@ -1,0 +1,12 @@
+Cookies(HTTP only)
+Open burpsuit goto proxy turn off intercept
+Open browser type owasp IP address
+Click on bwapp & login as bee & bug
+From dropdown select session management cookies(HTTP only) & click on hack
+Goto burpsuit turn on intercept
+Goto browser click on cookies
+Open another browser goto bwapp website & login with different account
+From dropdown select session management cookies(HTTP only) & click on hack
+Click on cookies copy PHPSESSID
+Goto burpsuit remove PHPSESSID & paste
+Click on forward untill it is disabled
