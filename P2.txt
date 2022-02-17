@@ -1,6 +1,0 @@
-Open burpsuit goto proxy turn off intercept
-Open browser type owasp IP address
-Goto burpsuit and tuen on intercept in proxy
-Goto browser click on owasp multillidae II
-Click forward untill the button is disabled
-Goto target click on sitemap
